@@ -2,14 +2,28 @@
 ## Title: |cff1784d1Dark ShestakUI Filger|r
 ## Notes: Class timers for ShestakUI
 ## Author: Nils Ruesch
+<<<<<<< HEAD:DarkShestakUI_Filger/DarkShestakUI_Filger.toc
 ## Version: 0.72
 ## Credits: Affli, Ildyria, SinaC
 ## Thanks: Erratic, Wetxius
 ## RequiredDeps: DarkShestakUI
+=======
+## Version: 4.37
+## Credits: Affli, Ildyria, SinaC
+## Thanks: Erratic, Wetxius
+## RequiredDeps: ShestakUI
+## X-Curse-Packaged-Version: 4.37
+## X-Curse-Project-Name: ShestakUI
+## X-Curse-Project-ID: shestakui
+>>>>>>> dffbfb3ac6564dc75c677879985619dd0af60818:ShestakUI_Filger/ShestakUI_Filger.toc
 ## Website: http://shestak.org
 
 Config\Settings.lua
 Config\Positions.lua
 Config\Spells.lua
 Config\Profiles.lua
+<<<<<<< HEAD:DarkShestakUI_Filger/DarkShestakUI_Filger.toc
 DarkShestakUI_Filger.lua
+=======
+ShestakUI_Filger.lua
+>>>>>>> dffbfb3ac6564dc75c677879985619dd0af60818:ShestakUI_Filger/ShestakUI_Filger.toc

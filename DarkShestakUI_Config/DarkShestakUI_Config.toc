@@ -2,11 +2,21 @@
 ## Title: |cff1784d1Dark ShestakUI Config|r
 ## Notes: In-game configuration for Dark ShestakUI
 ## Author: Tohveli
+<<<<<<< HEAD:DarkShestakUI_Config/DarkShestakUI_Config.toc
 ## Version: 0.72
+=======
+## Version: 4.37
+>>>>>>> dffbfb3ac6564dc75c677879985619dd0af60818:ShestakUI_Config/ShestakUI_Config.toc
 ## Credits: Elv22, Fernir, Tukz
 ## RequiredDeps: DarkShestakUI
 ## SavedVariables: GUIConfigAll, GUIConfigSettings
 ## SavedVariablesPerCharacter: GUIConfig
+<<<<<<< HEAD:DarkShestakUI_Config/DarkShestakUI_Config.toc
+=======
+## X-Curse-Packaged-Version: 4.37
+## X-Curse-Project-Name: ShestakUI
+## X-Curse-Project-ID: shestakui
+>>>>>>> dffbfb3ac6564dc75c677879985619dd0af60818:ShestakUI_Config/ShestakUI_Config.toc
 ## Website: http://shestak.org
 
 Locales\English.lua
@@ -18,4 +28,8 @@ Locales\Russian.lua
 Locales\Spanish.lua
 Locales\Taiwan.lua
 
+<<<<<<< HEAD:DarkShestakUI_Config/DarkShestakUI_Config.toc
 DarkShestakUI_Config.lua
+=======
+ShestakUI_Config.lua
+>>>>>>> dffbfb3ac6564dc75c677879985619dd0af60818:ShestakUI_Config/ShestakUI_Config.toc
