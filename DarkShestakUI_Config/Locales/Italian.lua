@@ -1,3 +1,4 @@
+<<<<<<< HEAD:DarkShestakUI_Config/Locales/Italian.lua
 ﻿if GetLocale() ~= "itIT" then return end
 
 ----------------------------------------------------------------------------------------
@@ -109,6 +110,117 @@ L_GUI_SKINS_NPCSCAN = "Attiva il restyling di NPCScan"
 L_GUI_SKINS_VANASKOS = "Attiva il restyling di VanasKoS"
 L_GUI_SKINS_WEAK_AURAS = "Attiva il restyling di WeakAuras"
 L_GUI_SKINS_SKADA = "Attiva il restyling di Skada"
+=======
+﻿if GetLocale() ~= "itIT" then return end
+
+----------------------------------------------------------------------------------------
+--	Localization for itIT client
+--	Translation: Oz
+----------------------------------------------------------------------------------------
+L_GUI_BUTTON_RESET = "Ripristino totale IU"
+L_GUI_SET_SAVED_SETTTINGS = "Imposta le impostazioni 'Per-Personaggio'"
+L_GUI_RESET_CHAR = "Vuoi davvero ripristinare le impostazioni iniziali della ShestakUI per questo personaggio?"
+L_GUI_RESET_ALL = "Vuoi davvero ripristinate tutte le impostazioni iniziali della ShestakUI?"
+L_GUI_PER_CHAR = "Vuoi davvero modificare questa impostazione (attivazione/disattivazione salvataggio impostazioni 'Per-Personaggio')?"
+L_GUI_MAKE_SELECTION = "Devi selezionare un'opzione prima di poter continuare con la configurazione."
+
+-- General options
+L_GUI_GENERAL_AUTOSCALE = "Ridimensionamento automatico dell'interfaccia"
+L_GUI_GENERAL_MULTISAMPLE = "Protezione del multisampling (bordi di 1 pixel)"
+L_GUI_GENERAL_UISCALE = "Scala dell'interfaccia (se il ridimensionamento automatico è disabilitato)"
+L_GUI_GENERAL_WELCOME_MESSAGE = "Messaggio di benvenuto in chat"
+L_GUI_GENERAL_LAG_TOLERANCE = "Allinea automaticamente la tolleranza automatica lag della Blizzard alla tua latenza"
+
+-- Miscellaneous options
+L_GUI_MISC_MARKING = "Marca il bersaglio quando premi Shift"
+L_GUI_MISC_INVKEYWORD = "Parola chiave per invitare (/ainv)"
+L_GUI_MISC_SPIN_CAMERA = "Ruota la camera mentre sei assente"
+L_GUI_MISC_VEHICLE_MOUSEOVER = "Riquadro veicolo al passaggio del mouse"
+L_GUI_MISC_QUEST_AUTOBUTTON = "Pulsante automatico missione/oggetto"
+L_GUI_MISC_RAID_TOOLS = "Strumenti per le incursioni"
+L_GUI_MISC_PROFESSION_TABS = "Visualizza la linguetta delle professioni sul riquadro abilità di commercio/commercio"
+L_GUI_MISC_PROFESSION_DATABASE = "Database delle Professioni sul riquadro Professioni"
+L_GUI_MISC_DUNGEON_TABS = "Linguette PvA/PvP sui relativi riquadri"
+L_GUI_MISC_HIDE_BG_SPAM = "Rimuovi lo spam delle emotes dei bosses durante i Campi di Battaglia"
+L_GUI_MISC_ITEM_LEVEL = "Livello oggetto sugli scomparti della schermata Personaggio"
+L_GUI_MISC_GEM_COUNTER = "Mostra quante gemme rosse/blu/gialle possiedi"
+L_GUI_MISC_ALREADY_KNOWN = "Colora ricette/cavalcature/mascottes possedute"
+L_GUI_MISC_DISENCHANTING = "Disincantamento, Pestatura e Prospezione in un solo click"
+L_GUI_MISC_SUM_BUYOUTS = "Somma assieme tutte le aste correnti"
+L_GUI_MISC_CLICK_CAST = "Scorciatoie da mouse (Click2Cast)"
+L_GUI_MISC_MOVE_BLIZZARD = "Consenti di muovere alcuni riquadri dell'interfaccia Blizzard"
+L_GUI_MISC_COLOR_PICKER = "Selezionatore colore migliorato"
+L_GUI_MISC_ENCHANTMENT_SCROLL = "Pergamena Incantamento sul riquadro sul riquadro abilità di commercio"
+L_GUI_MISC_ARCHAEOLOGY = "Archeologia: reliquie e recuperi"
+L_GUI_MISC_CHARS_CURRENCY = "Traccia la valuta complessiva posseduta dai tuoi personaggi"
+
+-- Announcements options
+L_GUI_ANNOUNCEMENTS = "Annunci"
+L_GUI_ANNOUNCEMENTS_DRINKING = "Annuncia in chat quando un nemico in arena sta bevendo"
+L_GUI_ANNOUNCEMENTS_INTERRUPTS = "Annuncia in gruppo/incursione quando tu interrompi un incantesimo/abilità"
+L_GUI_ANNOUNCEMENTS_SPELLS = "Annuncia in gruppo/incursione quando usi alcuni incantesimi/abilità"
+L_GUI_ANNOUNCEMENTS_SPELLS_FROM_ALL = "Controlla incantesimi/abilità lanciati da tutti i compagni di gruppo/incursione"
+L_GUI_ANNOUNCEMENTS_LIGHTWELL = "Annuncia il tuo Pozzo di Luce"
+L_GUI_ANNOUNCEMENTS_TOY_TRAIN = "Annuncia l'uso del Trenino Giocattolo o del Telecomando di Birranera"
+L_GUI_ANNOUNCEMENTS_SAYS_THANKS = "Ringrazia per alcuni incantesimi/abilità"
+L_GUI_ANNOUNCEMENTS_PULL_COUNTDOWN = "Annuncia il conto alla rovescia di avvio incontro '/pc #'"
+L_GUI_ANNOUNCEMENTS_FLASK_FOOD = "Annuncia l'uso di tonici e cibo"
+L_GUI_ANNOUNCEMENTS_FLASK_FOOD_AUTO = "Annuncia automaticamente l'uso di cibi e tonici all'appello"
+L_GUI_ANNOUNCEMENTS_FLASK_FOOD_RAID = "Annuncia l'uso di cibi e tonici nel canale incursione"
+L_GUI_ANNOUNCEMENTS_FEASTS = "Annuncia l'uso di tripudi/calderoni/anime/robots per le riparazioni"
+L_GUI_ANNOUNCEMENTS_PORTALS = "Annuncia l'uso di un portale/Rituale d'Evocazione"
+L_GUI_ANNOUNCEMENTS_BAD_GEAR = "Controlla l'equip. non idoneo in instance"
+
+-- Automation options
+L_GUI_AUTOMATION = "Automatismi"
+L_GUI_AUTOMATION_RESURRECTION = "'Auto-risorgi' nei Campi di Battaglia"
+L_GUI_AUTOMATION_SCREENSHOT = "Cattura una schermata quando completi un'impresa"
+L_GUI_AUTOMATION_SOLVE_ARTIFACT = "Popup automatico restauro manufatto"
+L_GUI_AUTOMATION_CHEFS_HAT = "'Auto-indossa' il cappello da cuoco"
+L_GUI_AUTOMATION_SAFARI_HAT = "Auto equip Safari Hat" -- Needs review
+L_GUI_AUTOMATION_ACCEPT_INVITE = "'Auto-accetta' gli inviti"
+L_GUI_AUTOMATION_DECLINE_DUEL = "'Auto-declina' i duelli"
+L_GUI_AUTOMATION_ACCEPT_QUEST = "'Auto-accetta' le missioni"
+L_GUI_AUTOMATION_AUTO_COLLAPSE = "In instance, 'auto-chiudi' il tracciatore degli obiettivi"
+L_GUI_AUTOMATION_SKIP_CINEMATIC = "'Auto-salta' i filmati"
+L_GUI_AUTOMATION_AUTO_ROLE = "'Auto-imposta' il tuo ruolo"
+L_GUI_AUTOMATION_CANCEL_BAD_BUFFS = "'Auto-cancella' alcuni benefici"
+L_GUI_AUTOMATION_TAB_BINDER = "Usando il tasto TAB, consente di prendere come bersaglio soltanto nemici controllati da altri giocatori (se presenti)"
+L_GUI_AUTOMATION_LOGGING_COMBAT = "In instances da incursione, 'auto-attiva' la registrazione del Registro di combattimento in un file di testo"
+L_GUI_AUTOMATION_CURRENCY_CAP = "Popup automatico valuta massima raggiunta"
+L_GUI_AUTOMATION_BUFF_ON_SCROLL = "Lancia benefici con la rotellina del mouse"
+
+-- Skins options
+L_GUI_SKINS = "Restyling"
+L_GUI_SKINS_BLIZZARD = "Attiva il restyling dei riquadri Blizzard"
+L_GUI_SKINS_MINIMAP_BUTTONS = "Attiva il restyling dei pulsanti delle AddOns sulla minimappa"
+L_GUI_SKINS_CLCR = "Attiva il restyling di CLCRet"
+L_GUI_SKINS_CLCP = "Attiva il restyling di CLCProt"
+L_GUI_SKINS_COMBUSTION_HELPER = "Attiva il restyling di CombustionHelper"
+L_GUI_SKINS_BW = "Attiva il restyling di BigWigs"
+L_GUI_SKINS_DBM = "Attiva il restyling di DBM"
+L_GUI_SKINS_DXE = "Attiva il restyling di DXE"
+L_GUI_SKINS_OMEN = "Attiva il restyling di Omen"
+L_GUI_SKINS_RECOUNT = "Attiva il restyling di Recount"
+L_GUI_SKINS_BLOOD_SHIELD_TRACKER = "Attiva il restyling di BloodShieldTracker"
+L_GUI_SKINS_DOMINOS = "Attiva il restyling di Dominos"
+L_GUI_SKINS_FLYOUT_BUTTON = "Attiva il restyling di FlyoutButtonCustom"
+L_GUI_SKINS_NUG_RUNNING = "Attiva il restyling di NugRunning"
+L_GUI_SKINS_OVALE = "Attiva il restyling di OvaleSpellPriority"
+L_GUI_SKINS_CLIQUE = "Attiva il restyling di Clique"
+L_GUI_SKINS_ACE3 = "Attiva il restyling degli elementi per le opzioni di Ace3"
+L_GUI_SKINS_PP = "Attiva il restyling di PallyPower"
+L_GUI_SKINS_CAPPING = "Attiva il restyling di Capping"
+L_GUI_SKINS_COOL_LINE = "Attiva il restyling di CoolLine"
+L_GUI_SKINS_ATLASLOOT = "Attiva il restyling di AtlasLoot"
+L_GUI_SKINS_TINY_DPS = "Attiva il restyling di TinyDPS"
+L_GUI_SKINS_FACE_SHOOTER = "Attiva il restyling di FaceShooter"
+L_GUI_SKINS_MAGE_NUGGETS = "Attiva il restyling di MageNuggets"
+L_GUI_SKINS_NPCSCAN = "Attiva il restyling di NPCScan"
+L_GUI_SKINS_VANASKOS = "Attiva il restyling di VanasKoS"
+L_GUI_SKINS_WEAK_AURAS = "Attiva il restyling di WeakAuras"
+L_GUI_SKINS_SKADA = "Attiva il restyling di Skada"
+>>>>>>> bde7222efa01c42f5c443b3fdbb342da67aacf66:ShestakUI_Config/Locales/Italian.lua
 L_GUI_SKINS_MY_ROLE_PLAY = "Attiva il restyling di MyRolePlay"
 
 -- Combat text options

@@ -62,10 +62,9 @@ local function LoadSkin()
 	end)
 
 	-- HonorFrame
-	T.SkinDropDownBox(HonorFrameTypeDropDown, 165)
-
 	HonorFrame.Inset:StripTextures()
 	HonorFrame.RoleInset:StripTextures()
+	T.SkinDropDownBox(HonorFrameTypeDropDown, 165)
 	T.SkinScrollBar(HonorFrameSpecificFrameScrollBar)
 	HonorFrameSoloQueueButton:SkinButton(true)
 	HonorFrameGroupQueueButton:SkinButton(true)
@@ -124,6 +123,16 @@ local function LoadSkin()
 	ConquestFrame.RatedBG.SelectedTexture:SetAllPoints()
 	ConquestFrame.RatedBG.SelectedTexture:SetTexture(0, 1, 0, 0.1)
 	ConquestJoinButton:SkinButton(true)
+
+	-- PvP Ready Dialog
+	PVPReadyDialog:StripTextures()
+	PVPReadyDialog:SetTemplate("Transparent")
+	PVPReadyDialog.SetBackdrop = T.dummy
+	PVPReadyDialog.filigree:SetAlpha(0)
+	PVPReadyDialog.bottomArt:SetAlpha(0)
+	PVPReadyDialogEnterBattleButton:SkinButton()
+	PVPReadyDialogLeaveQueueButton:SkinButton()
+	T.SkinCloseButton(PVPReadyDialogCloseButton, PVPReadyDialog, "-")
 
 	-- WarGamesFrame
 	WarGamesFrame:StripTextures()
