@@ -6,8 +6,8 @@
 ----------------------------------------------------------------------------------------
 L_GUI_BUTTON_RESET = "Ripristino totale IU"
 L_GUI_SET_SAVED_SETTTINGS = "Imposta le impostazioni 'Per-Personaggio'"
-L_GUI_RESET_CHAR = "Vuoi davvero ripristinare le impostazioni iniziali della Dark ShestakUI per questo personaggio?"
-L_GUI_RESET_ALL = "Vuoi davvero ripristinate tutte le impostazioni iniziali della Dark ShestakUI?"
+L_GUI_RESET_CHAR = "Vuoi davvero ripristinare le impostazioni iniziali della ShestakUI per questo personaggio?"
+L_GUI_RESET_ALL = "Vuoi davvero ripristinate tutte le impostazioni iniziali della ShestakUI?"
 L_GUI_PER_CHAR = "Vuoi davvero modificare questa impostazione (attivazione/disattivazione salvataggio impostazioni 'Per-Personaggio')?"
 L_GUI_MAKE_SELECTION = "Devi selezionare un'opzione prima di poter continuare con la configurazione."
 
@@ -79,11 +79,8 @@ L_GUI_AUTOMATION_BUFF_ON_SCROLL = "Lancia benefici con la rotellina del mouse"
 
 -- Skins options
 L_GUI_SKINS = "Restyling"
-L_GUI_SKINS_COLOR_THEME = "Coloro del tema" -- Need review
 L_GUI_SKINS_BLIZZARD = "Attiva il restyling dei riquadri Blizzard"
-L_GUI_SKINS_SHADOW = "Ombre sui riquadri" -- Need review
 L_GUI_SKINS_MINIMAP_BUTTONS = "Attiva il restyling dei pulsanti delle AddOns sulla minimappa"
-L_GUI_SKINS_MINIMAP_BUTTONS_MOUSEOVER = "Icone delle AddOns al passaggio del mouse" -- Need review
 L_GUI_SKINS_CLCR = "Attiva il restyling di CLCRet"
 L_GUI_SKINS_CLCP = "Attiva il restyling di CLCProt"
 L_GUI_SKINS_COMBUSTION_HELPER = "Attiva il restyling di CombustionHelper"
@@ -156,6 +153,8 @@ L_GUI_COOLDOWN_RAID_ENABLE = "Visualizza i recuperi d'incursione"
 L_GUI_COOLDOWN_RAID_HEIGHT = "Altezza delle barre dei recuperi d'incursione"
 L_GUI_COOLDOWN_RAID_WIDTH = "Larghezza barre recuperi d'incursione (se l'icona è attiva, larghezza + 28)"
 L_GUI_COOLDOWN_RAID_SORT = "Disposizione verso l'alto delle barre dei recuperi d'incursione"
+L_GUI_COOLDOWN_RAID_EXPIRATION = "Sort by expiration time" -- Needs review
+L_GUI_COOLDOWN_RAID_SHOW_MY = "Show my cooldowns" -- Needs review
 L_GUI_COOLDOWN_RAID_ICONS = "Icone dei recuperi d'incursione"
 L_GUI_COOLDOWN_RAID_IN_RAID = "Mostra i recuperi d'incursione nelle aree da incursione"
 L_GUI_COOLDOWN_RAID_IN_PARTY = "Mostra i recuperi d'incursione nelle aree da gruppo"
@@ -228,8 +227,6 @@ L_GUI_CHAT_CL_TAB = "Mostra la linguetta del Registro di combattimento"
 L_GUI_CHAT_TABS_MOUSEOVER = "Linguette delle chats al passaggio del mouse"
 L_GUI_CHAT_STICKY = "Ricorda l'ultimo canale"
 L_GUI_CHAT_DAMAGE_METER_SPAM = "Riunisce lo spam di un contatore dei danni in un singolo link"
-L_GUI_CHAT_TOOL_BAR = "'Barra strumenti' per passare dal riquadro del bottino al contatore dei danni" -- Needs review
-L_GUI_CHAT_TOOL_BAR_MOUSEOVER =  "'Barra strumenti' al passaggio del mouse" -- Needs review
 
 -- Bag options
 L_GUI_BAGS = "Sacche"
@@ -290,6 +287,7 @@ L_GUI_ACTIONBAR_GRID = "Mostra lo sfondo degli scomparti vuoti sulle barre delle
 L_GUI_ACTIONBAR_BUTTON_SIZE = "Dimensioni degli scomparti"
 L_GUI_ACTIONBAR_BUTTON_SPACE = "Spazio tra gli scomparti"
 L_GUI_ACTIONBAR_SPLIT_BARS = "Dividi la quinta barra in 2 barre da 6 scomparti ciascuna"
+L_GUI_ACTIONBAR_CLASSCOLOR_BORDER = "Colora i bordi degli scomparti con i colori delle classi"
 L_GUI_ACTIONBAR_TOGGLE_MODE = "Attiva la modalità a scomparsa"
 L_GUI_ACTIONBAR_HIDE_HIGHLIGHT = "Nascondi il lumeggiare (highlight) di un proc."
 L_GUI_ACTIONBAR_BOTTOMBARS = "Numero delle barre delle azioni in basso (1, 2 o 3)"
@@ -303,7 +301,6 @@ L_GUI_ACTIONBAR_STANCEBAR_HIDE = "Nascondi barra postura"
 L_GUI_ACTIONBAR_STANCEBAR_HORIZONTAL = "Rendi orizzontale la barra postura"
 L_GUI_ACTIONBAR_MICROMENU = "Attiva il micromenu"
 L_GUI_ACTIONBAR_MICROMENU_MOUSEOVER = "Micromenu al passaggio del mouse"
-L_GUI_ACTIONBAR_PANELS = "Pannelli sotto le barre" -- Need review
 
 -- Auras/Buffs/Debuffs
 L_GUI_AURA_PLAYER_BUFF_SIZE = "Dimensione benefici giocatore"
@@ -319,10 +316,13 @@ L_GUI_AURA_BOSS_BUFFS = "Benefici sul riquadro del boss"
 L_GUI_AURA_PLAYER_AURA_ONLY = "Mostra solo le tue penalità sul riquadro del bersaglio"
 L_GUI_AURA_DEBUFF_COLOR_TYPE = "Colora le penalità a seconda del tipo"
 L_GUI_AURA_CAST_BY = "Mostra chi ha lanciato un beneficio o una penalità nei suggerimenti"
+L_GUI_AURA_CLASSCOLOR_BORDER = "Colora i bordi dei benefici del giocatore in base al colore della classi"
 
 -- Unit Frames options
 L_GUI_UF_ENABLE = "Abilita i riquadri delle unità"
-L_GUI_UF_UF_COLOR = "Colore barre salute (se è attivo il colore per la tua barra della salute)" -- Need review
+L_GUI_UF_OWN_COLOR = "Scegli il colore per la tua barra della salute"
+L_GUI_UF_UF_COLOR = "Colore barre salute (se è attivo il colore per la tua barra della salute)"
+L_GUI_UF_ENEMY_HEALTH_COLOR = "Colora di rosso la barra della salute dei nemici"
 L_GUI_UF_TOTAL_VALUE = "Visualizza un testo sui riquadri di giocatore e bersaglio con i valori XXXX/Totale"
 L_GUI_UF_COLOR_VALUE = "Valori di salute e mana colorati"
 L_GUI_UF_BAR_COLOR_VALUE = "Barra della salute colorata in base alla salute restante"
@@ -341,6 +341,9 @@ L_GUI_UF_ICONS_PVP = "Testo PvP (senza icona) al passaggio del mouse sui riquadr
 L_GUI_UF_ICONS_COMBAT = "Icona di status 'in combattimento'"
 L_GUI_UF_ICONS_RESTING = "Icona 'Riposato' per personaggi di basso livello"
 L_GUI_UF_PORTRAIT_ENABLE = "Attiva ritratti per giocatore e bersaglio"
+L_GUI_UF_PORTRAIT_CLASSCOLOR_BORDER = "Bordi dei ritratti colorati in base alla classe"
+L_GUI_UF_PORTRAIT_HEIGHT = "Altezza del ritratto"
+L_GUI_UF_PORTRAIT_WIDTH = "Larghezza del ritratto"
 L_GUI_UF_PLUGINS_GCD = "Scintilla del recupero globale"
 L_GUI_UF_PLUGINS_SWING = "Attiva la barra dei fendenti"
 L_GUI_UF_PLUGINS_NECRO_STRIKE = "Attiva la barra per l'Assalto Necrotico"
